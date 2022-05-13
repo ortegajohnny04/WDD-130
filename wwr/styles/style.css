@@ -1,0 +1,114 @@
+/* COLOR GUIDE
+Primary: #214085
+Secondary: #1faa4a
+Highlight: #f8f166
+Highlight: #2f64b0
+*/
+
+body {
+    background-color: #fff;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    background-color: #214085
+    
+    
+}
+
+main{
+    text-align: center;
+}
+
+nav a:hover {
+    color: #f8f166;
+    background-color: #42aeff; 
+}    
+
+
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    padding: 35px;
+    text-align: center;
+}
+
+img.logo {
+    margin-left: 15px;
+	width: 150px;
+    height: auto;
+	background-color: #f8f8e8;
+	padding-left: 2.5px;
+	position: relative;
+	border: 1px solid #0063ac;
+	border-radius: 10px;
+}
+
+nav {
+    grid-row: 1/2;
+    grid-column: 2/7;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    width: 100%;
+    height: 100px;
+}
+
+.book {
+    background-color: #214085;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.home-title {
+    font-size: 40px;
+    grid-column: 2/8;
+    grid-row: 1/2;
+    justify-self: stretch;
+    text-align: center;
+}
+
+.home-grid{
+    margin-top: 60px;
+}
+
+
+.button-box{
+    text-align: center;
+
+
+}
+
+#hero{
+    text-align: center;
+}
+
+#hero-box{	
+    margin-top: 20px;
+    padding: 0;
+
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #214085;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
